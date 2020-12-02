@@ -1,5 +1,5 @@
 # PdfTester
-Super simple samples of Azure Functions generating PDFs from  and storing them in the Azure Blob Storage.
+Super simple samples of Azure Functions generating PDFs  and storing them in the Azure Blob Storage.
 
 ### 1. FxIronPdfGenerator
 
@@ -14,5 +14,5 @@ Uses [PdfSharpCore](https://www.nuget.org/packages/PdfSharpCore/). This package 
 Another big advantage though, is that it can run smoothly in the *Consumption Tier* of Azure Functions.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzIzNDAzMSwxOTUxMzIyMjQ2XX0=
+eyJoaXN0b3J5IjpbMTE2Nzc3MDY3NywxOTUxMzIyMjQ2XX0=
 -->
