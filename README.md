@@ -10,8 +10,8 @@ Nevertheless, IronPDF raises a whole Chromium execution environment that require
 The minimal rendering took 2 secs. And the first run takes 25secs. I suppose it is because the Chromium setup required.
 
 ### 2. FxPdfSharpGenerator
-Using [PdfSharpCore], the r(https://www.nuget.org/packages/PdfSharpCore/)
+Uses [PdfSharpCore](https://www.nuget.org/packages/PdfSharpCore/). This package is blazing fast compared against IronPDF. Minimal rendering took 123ms and the penalty for the first execution is unnoticeable. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTk2NjkzOSwxOTUxMzIyMjQ2XX0=
+eyJoaXN0b3J5IjpbMjEzNjMxNjU2MSwxOTUxMzIyMjQ2XX0=
 -->
