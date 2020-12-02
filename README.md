@@ -7,9 +7,11 @@ This Azure Function uses [IronPdf.core](https://ironpdf.com/) nuget package to w
 
 Nevertheless, IronPDF raises a whole Chromium execution environment that requires more disk space than the one provided by the *Consumption Tier* of Azure Functions, so you have to deploy it on a *Premium or Dedicated* tier.
 
+The minimal rendering took 2 secs. And the first run takes 25secs. I suppose it is because the Chromium setup required.
+
 ### 2. FxPdfSharpGenerator
-Using 
+Using [PdfSharpCore], the r(https://www.nuget.org/packages/PdfSharpCore/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTU2MjM5NjcsMTk1MTMyMjI0Nl19
+eyJoaXN0b3J5IjpbMTkzNTk2NjkzOSwxOTUxMzIyMjQ2XX0=
 -->
