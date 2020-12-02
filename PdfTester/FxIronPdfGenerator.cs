@@ -7,9 +7,9 @@ using Microsoft.Azure.WebJobs.Extensions.Http;
 
 namespace PdfTester
 {
-    public static class FxPdfGenerator
+    public static class FxIronPdfGenerator
     {
-        [FunctionName("FxPdfGenerator")]
+        [FunctionName("FxIronPdfGenerator")]
         public static IActionResult Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req)
         {
