@@ -7,8 +7,9 @@ This Azure Function uses [IronPdf.core](https://ironpdf.com/) nuget package to w
 
 Nevertheless, IronPDF raises a whole Chromium execution environment that requires more disk space than the one provided by the *Consumption Tier* of Azure Functions, so you have to deploy it on a *Premium or Dedicated* tier.
 
- 1. List item
+### 2. FxPdfSharpGenerator
+Using 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjA2NDc4NywxOTUxMzIyMjQ2XX0=
+eyJoaXN0b3J5IjpbLTE0NTU2MjM5NjcsMTk1MTMyMjI0Nl19
 -->
